@@ -4,7 +4,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://Kepler452Byte.github.io",
+  hostname: "https://kepler452byte.github.io",
 
   author: {
     name: "Kepler452Byte",
