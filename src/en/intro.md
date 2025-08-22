@@ -1,5 +1,5 @@
 ---
-icon: circle-info
+icon: id-card
 cover: /assets/images/cover3.jpg
 
 sidebar: false

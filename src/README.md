@@ -3,9 +3,10 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-heroImage: /logo.svg
+# heroImage: /logo.svg
 heroText: Kepler452Byte'Blog
 # heroFullScreen: true
+bgImage: /assets/images/man-planet-river-5120x5120-15554.jpg
 tagline: 用逻辑编织世界，以代码定义未来
 projects:
   # - icon: folder-open

@@ -8,18 +8,19 @@ export default hopeTheme({
 
   author: {
     name: "Kepler452Byte",
-    url: "https://mister-hope.com",
+    url: "https://kepler452byte.github.io",
   },
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Kepler452Byte/Kepler452Byte.github.io",
 
   docsDir: "src",
 
   darkmode: "switch",
 
   blog: {
+    avatar: "/assets/images/avatar.png",
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",

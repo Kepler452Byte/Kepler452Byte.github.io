@@ -1,5 +1,5 @@
 ---
-icon: circle-info
+icon: id-card
 cover: /assets/images/北京邮电大学-bg-white.png
 
 sidebar: false
