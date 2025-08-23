@@ -6,7 +6,7 @@ title: 主页
 # heroImage: /logo.svg
 heroText: Kepler452Byte'Blog
 # heroFullScreen: true
-bgImage: /assets/images/man-planet-river-5120x5120-15554.jpg
+bgImage: /assets/images/wallpaper-space.png
 tagline: 用逻辑编织世界，以代码定义未来
 projects:
   # - icon: folder-open

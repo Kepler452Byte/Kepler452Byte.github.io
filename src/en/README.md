@@ -5,9 +5,12 @@ icon: house
 title: Blog Home
 # heroImage: /logo.svg  
 heroText: Kepler452Byte'sBlog
-tagline: Weave the world with logic, define the future with code.
+tagline: Weave the world with logic define the future with code.
 # heroFullScreen: true
-bgImage: /assets/images/man-planet-river-5120x5120-15554.jpg
+bgImage: /assets/images/wallpaper-space.png
+bgImageStyle: {
+  backgroundSize: 'cover', 
+}
 projects:
   # - icon: folder-open
   #   name: project name
