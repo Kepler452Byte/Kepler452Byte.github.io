@@ -1,5 +1,5 @@
 ---
-title: 算法题练习记录
+title: 算法题
 index: false
 icon: laptop-code
 category:

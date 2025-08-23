@@ -157,6 +157,9 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
+    math: {
+      type: "mathjax", // 或 'katex'
+    },
 
     // uncomment these if you need TeX support
     // math: {

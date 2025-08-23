@@ -1,5 +1,5 @@
 ---
-title: Algorithm Practice Record
+title: Algorithm
 index: false
 icon: laptop-code
 category:

@@ -23,4 +23,20 @@ export const enSidebar = sidebar({
   //     children: "structure",
   //   },
   // ],
+  "/en/code-practice/": [
+    {
+      text: "Algorithm",
+      icon: "code",
+      collapsible: true,
+      children: [
+        {
+          text: "LeetCode",
+          icon: "list-check",
+          collapsible: true,
+          prefix: "leetcode/",
+          children: "structure",
+        },
+      ],
+    },
+  ],
 });
