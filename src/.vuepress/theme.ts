@@ -118,6 +118,10 @@ export default hopeTheme({
         hint: "Password: 1234",
         password: "1234",
       },
+      "/zh/code-practice/company-codeing-test/meituan-20250823.html": {
+        hint: "Password:",
+        password: "syh123123",
+      },
     },
   },
 
