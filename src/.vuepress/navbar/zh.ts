@@ -45,5 +45,6 @@ export const zhNavbar = navbar([
   //   ],
   // },
   "/zh/code-practice/",
+  "/zh/seeking-job/",
   "/zh/intro",
 ]);

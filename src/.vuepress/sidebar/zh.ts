@@ -24,4 +24,20 @@ export const zhSidebar = sidebar({
       ],
     },
   ],
+  "/zh/seeking-job/": [
+    {
+      text: "求职记录",
+      icon: "list-check",
+      collapsible: true,
+      children: [
+        {
+          text: "校招",
+          icon: "list-check",
+          collapsible: true,
+          prefix: "campus/",
+          children: "structure",
+        },
+      ]
+    },
+  ],
 });
