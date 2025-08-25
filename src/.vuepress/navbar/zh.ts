@@ -45,6 +45,25 @@ export const zhNavbar = navbar([
   //   ],
   // },
   "/zh/code-practice/",
+  {
+    text: "开发经历",
+    icon: "pen-to-square",
+    prefix: "/zh/development/",
+    children: [
+      {
+        text: "后端",
+        icon: "pen-to-square",
+        prefix: "backend/",
+        link: "/zh/development/backend/README.md"
+      },
+      {
+        text: "前端",
+        icon: "pen-to-square",
+        prefix: "frontend/",
+        link: "/zh/development/frontend/README.md"
+      }
+    ]
+  },
   "/zh/seeking-job/",
   "/zh/intro",
 ]);

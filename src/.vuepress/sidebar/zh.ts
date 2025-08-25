@@ -26,7 +26,7 @@ export const zhSidebar = sidebar({
   ],
   "/zh/seeking-job/": [
     {
-      text: "求职记录",
+      text: "求职经历",
       icon: "list-check",
       collapsible: true,
       children: [
@@ -40,4 +40,20 @@ export const zhSidebar = sidebar({
       ]
     },
   ],
+  "/zh/development/backend/": [
+    {
+      text: "后端",
+      icon: "code",
+      collapsible: true,
+      children: "structure"
+    }
+  ],
+  "/zh/development/frontend/": [
+    {
+      text: "前端",
+      icon: "code",
+      collapsible: true,
+      children: "structure"
+    }
+  ]
 });
