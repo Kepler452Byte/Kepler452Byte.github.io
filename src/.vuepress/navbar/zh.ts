@@ -52,19 +52,19 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "后端",
-        icon: "pen-to-square",
+        icon: "server",
         prefix: "backend/",
         link: "/zh/development/backend/README.md"
       },
       {
         text: "前端",
-        icon: "pen-to-square",
+        icon: "laptop-code",
         prefix: "frontend/",
         link: "/zh/development/frontend/README.md"
       },
       {
         text: "AI/LLM/Agent",
-        icon: "pen-to-square",
+        icon: "robot",
         prefix: "ai-llm-agent/",
         link: "/zh/development/ai-llm-agent/README.md"
       }

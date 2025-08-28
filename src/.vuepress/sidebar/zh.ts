@@ -55,5 +55,13 @@ export const zhSidebar = sidebar({
       collapsible: true,
       children: "structure"
     }
+  ],
+  "/zh/development/ai-llm-agent/": [
+    {
+      text: "AI/LLM/Agent",
+      icon: "robot",
+      collapsible: true,
+      children: "structure"
+    }
   ]
 });
