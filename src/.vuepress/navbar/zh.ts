@@ -61,6 +61,12 @@ export const zhNavbar = navbar([
         icon: "pen-to-square",
         prefix: "frontend/",
         link: "/zh/development/frontend/README.md"
+      },
+      {
+        text: "AI/LLM/Agent",
+        icon: "pen-to-square",
+        prefix: "ai-llm-agent/",
+        link: "/zh/development/ai-llm-agent/README.md"
       }
     ]
   },
