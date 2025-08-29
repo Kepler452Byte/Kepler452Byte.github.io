@@ -1,11 +1,10 @@
 ---
 icon: pen-to-square
-date: 2025-08-29
+date: 2025-08-30
 category:
-  - AI
+  - AI/LLM/Agent
 tag:
   - LLM
-  - AICoding
   - Agent
 ---
 

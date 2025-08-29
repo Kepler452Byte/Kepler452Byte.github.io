@@ -42,7 +42,7 @@ export const zhSidebar = sidebar({
   ],
   "/zh/development/backend/": [
     {
-      text: "后端",
+      text: "后端开发",
       icon: "code",
       collapsible: true,
       children: "structure"
@@ -50,7 +50,7 @@ export const zhSidebar = sidebar({
   ],
   "/zh/development/frontend/": [
     {
-      text: "前端",
+      text: "前端开发",
       icon: "code",
       collapsible: true,
       children: "structure"

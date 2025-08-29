@@ -51,13 +51,13 @@ export const zhNavbar = navbar([
     prefix: "/zh/development/",
     children: [
       {
-        text: "后端",
+        text: "后端开发",
         icon: "server",
         prefix: "backend/",
         link: "/zh/development/backend/README.md"
       },
       {
-        text: "前端",
+        text: "前端开发",
         icon: "laptop-code",
         prefix: "frontend/",
         link: "/zh/development/frontend/README.md"

@@ -4,9 +4,10 @@ date: 2025-08-25
 category:
   - 后端
 tag:
-  - 场景设计
+  - 设计
 ---
-# 【设计】项目中的AK 与 SK设计
+
+# 【Python】【dahlin】项目中的AK 与 SK设计
 
 ## **概述**
 
