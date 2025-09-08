@@ -1,28 +1,13 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/zh/code-practice/": [
+  "/zh/my-log/": [
     {
-      text: "算法题",
+      text: "我的日志",
+      icon: "list-check",
       collapsible: true,
-      icon: "code", // 更换icon为code
-      children: [
-        {
-          text: "LeetCode",
-          icon: "list-check", // 更换icon为list-check
-          collapsible: true,
-          prefix: "leetcode/",
-          children: "structure",
-        },
-        {
-          text: "笔试题",
-          icon: "list-check", // 更换icon为list-check
-          collapsible: true,
-          prefix: "company-codeing-test/",
-          children: "structure",
-        },
-      ],
-    },
+      children: "structure"
+    }
   ],
   "/zh/seeking-job/": [
     {
@@ -40,7 +25,30 @@ export const zhSidebar = sidebar({
       ]
     },
   ],
-  "/zh/development/backend/": [
+  "/zh/cs-development/code-practice/": [
+      {
+        text: "算法题",
+        collapsible: true,
+        icon: "code", // 更换icon为code
+        children: [
+          {
+            text: "LeetCode",
+            icon: "list-check", // 更换icon为list-check
+            collapsible: true,
+            prefix: "leetcode/",
+            children: "structure",
+          },
+          {
+            text: "笔试题",
+            icon: "list-check", // 更换icon为list-check
+            collapsible: true,
+            prefix: "company-codeing-test/",
+            children: "structure",
+          },
+        ],
+      },
+    ],
+  "/zh/cs-development/backend/": [
     {
       text: "后端开发",
       icon: "code",
@@ -48,7 +56,7 @@ export const zhSidebar = sidebar({
       children: "structure"
     }
   ],
-  "/zh/development/frontend/": [
+  "/zh/cs-development/frontend/": [
     {
       text: "前端开发",
       icon: "code",
@@ -56,7 +64,7 @@ export const zhSidebar = sidebar({
       children: "structure"
     }
   ],
-  "/zh/development/ai-llm-agent/": [
+  "/zh/cs-development/ai-llm-agent/": [
     {
       text: "AI/LLM/Agent",
       icon: "robot",

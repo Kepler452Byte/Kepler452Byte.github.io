@@ -44,29 +44,35 @@ export const zhNavbar = navbar([
   //     "strawberry",
   //   ],
   // },
-  "/zh/code-practice/",
+  "/zh/my-log/",
   {
-    text: "开发经历",
+    text: "CS/开发经历",
     icon: "pen-to-square",
-    prefix: "/zh/development/",
+    prefix: "/zh/cs-development/",
     children: [
+      {
+        text: "算法练习",
+        icon: "code", // 更换为更适合算法练习的图标
+        prefix: "code-practice/",
+        link: "/zh/cs-development/code-practice/README.md"
+      },
       {
         text: "后端开发",
         icon: "server",
         prefix: "backend/",
-        link: "/zh/development/backend/README.md"
+        link: "/zh/cs-development/backend/README.md"
       },
       {
         text: "前端开发",
         icon: "laptop-code",
         prefix: "frontend/",
-        link: "/zh/development/frontend/README.md"
+        link: "/zh/cs-development/frontend/README.md"
       },
       {
         text: "AI/LLM/Agent",
         icon: "robot",
         prefix: "ai-llm-agent/",
-        link: "/zh/development/ai-llm-agent/README.md"
+        link: "/zh/cs-development/ai-llm-agent/README.md"
       }
     ]
   },
