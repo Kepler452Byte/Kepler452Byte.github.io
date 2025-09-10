@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-
+import { commentPlugin } from '@vuepress/plugin-comment'
 export default hopeTheme({
   hostname: "https://kepler452byte.github.io",
 
@@ -211,6 +211,14 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+
+    comment: {
+      provider: "Giscus",
+      repo: "Kepler452Byte/Kepler452Byte.github.io",
+      repoId: "R_kgDOPijw7w",
+      category: "Announcements",
+      categoryId: "DIC_kwDOPijw784CvQGf"
+    },
 
     components: {
       components: ["Badge", "VPCard"],

@@ -23,5 +23,8 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "@vuepress/plugin-comment": "2.0.0-rc.20"
   }
 }
