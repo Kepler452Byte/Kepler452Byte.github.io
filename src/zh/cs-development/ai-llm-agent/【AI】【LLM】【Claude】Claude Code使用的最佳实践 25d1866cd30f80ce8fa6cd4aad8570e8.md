@@ -9,6 +9,53 @@ tag:
 ---
 
 # 【AI】【LLM】【Claude】Claude Code使用的最佳实践
+## 安装（确保node版本在18+）
+
+```bash
+npm install -g @anthropic-ai/claude-code
+claude --version
+```
+
+- 可以在vscode 或者 cursor的应用市场中安装Claude Code插件
+
+## 配置API
+
+1. 使用Claude账号登录，这种方式对梯子的要求比较高
+    - pro 账号有限额
+    - 也可以按量付费
+2. 使用GLM（智谱的模型）
+    
+    获取API https://open.bigmodel.cn/login?redirect=%2Fusercenter%2Fproj-mgmt%2Fapikeys
+    
+    **方式一：使用脚本（首次使用推荐）**
+    
+    在你的终端或 IDE 中运行以下命令，下载一个帮你自动配置环境变量的 shell 脚本，运行即可
+    
+    ```bash
+    curl -O "http://bigmodel-us3-prod-marketplace.cn-wlcb.ufileos.com/1753683727739-0b3a4f6e84284f1b9afa951ab7873c29.sh?ufileattname=claude_code_prod.sh"
+    ```
+    
+    **方式二：手动配置**
+    
+    若之前有配置过 Claude code 的环境变量，可按以下方式手动配置
+    
+    ```bash
+    export ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic
+    export ANTHROPIC_AUTH_TOKEN=YOUR_API_KEY
+    ```
+    
+3. 使用gac code（Claude模型 免翻墙版本）
+    
+    获取gac codehttps://gaccode.com/login
+    
+    这个是通过一个API网关，从一个Claude Max的账号池选择一个账号进行请求，再将AI回复结果返回的，速度比较慢。
+    
+    ```bash
+    # set env vars 
+    export ANTHROPIC_BASE_URL=https://gaccode.com/claudecode 
+    export ANTHROPIC_API_KEY=sk-ant-oat01-xxxxxxx # programmatically approve this API Key 
+    (cat ~/.claude.json 2>/dev/null || echo 'null') | jq --arg key "${ANTHROPIC_API_KEY: -20}" '(. // {}) | .customApiKeyResponses.approved |= ([.[]?, $key] | unique)' > ~/.claude.json.tmp && mv ~/.claude.json.tmp ~/.claude.json KEY: sk-ant-xxxxx
+    ```
 
 ## **CLAUDE.md files**
 
@@ -59,6 +106,8 @@ Claude Code 会从当前工作目录开始，向上递归查找 `CLAUDE.md` �
 - `#` ：符号超快地添加记忆。保存到你想要的md文件。
 - `/clear`: 完全清空当前对话历史，开始一个全新的上下文。
 - `/terminal-setup` ：**Shift+Enter** 默认不能换行。通过这个命令可以配置终端换行。
+  - 输入 `\` 是可以换行的，不需要快捷键。
+  - 在windows的wsl中 ALT+ ENTER是可以换行的。
 - `/help`: 显示所有可用命令的帮助信息。
 - `/compact`: 清空历史，但保留一份摘要，以便在新的对话中延续之前的背景。
 - `/ide`: 连接到你的 IDE (如 VS Code)，让 Claude 知道你当前正在查看或编辑哪个文件。
