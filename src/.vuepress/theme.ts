@@ -67,7 +67,8 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Kepler452Byte's Blog",
+      footer: `<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=备案号" target="_blank">公安网备*****号</a>
+              <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备*****号-1</a>`,
 
       displayFooter: true,
 
@@ -91,7 +92,8 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "Kepler452Byte's Blog",
+      footer: `<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=备案号" target="_blank">公安网备案号审核中</a>
+              <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024068300号-2</a>`,
 
       displayFooter: true,
 
