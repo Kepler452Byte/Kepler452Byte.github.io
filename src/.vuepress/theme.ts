@@ -205,6 +205,33 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+    // DocSearch 搜索配置
+    docsearch: {
+      appId: "JCPEPECQAM",
+      apiKey: "ea99f4219d4782a4ef7349b7b499070a",
+      indexName: "kepler452bytes_blog_pages",
+      locales: {
+        "/": {
+          placeholder: "搜索文档",
+          translations: {
+            button: {
+              buttonText: "搜索文档",
+              buttonAriaLabel: "搜索文档",
+            },
+          },
+        },
+        "/en/": {
+          placeholder: "Search documentation",
+          translations: {
+            button: {
+              buttonText: "Search",
+              buttonAriaLabel: "Search",
+            },
+          },
+        },
+      },
+    },
+
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
