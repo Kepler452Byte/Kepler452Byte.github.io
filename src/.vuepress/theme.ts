@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import { commentPlugin } from '@vuepress/plugin-comment'
+
 export default hopeTheme({
   hostname: "https://kepler452byte.github.io",
 
