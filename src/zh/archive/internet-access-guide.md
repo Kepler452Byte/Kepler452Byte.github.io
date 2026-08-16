@@ -6,6 +6,15 @@ date: 2025-08-25
 category: "Journal"
 tags: []
 icon: pen-to-square
+article: false
+index: false
+timeline: false
+sitemap:
+  exclude: true
+head:
+  - - meta
+    - name: robots
+      content: noindex, nofollow
 ---
 # Mac 电脑推荐安装
 

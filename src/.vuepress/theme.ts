@@ -111,7 +111,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/zh/coding-practice/company-coding-test/meituan-20250823.html": {
+      "/zh/archive/meituan-20250823.html": {
         hint: "Password:",
         password: "syh123123",
       },

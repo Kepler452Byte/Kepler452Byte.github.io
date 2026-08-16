@@ -7,6 +7,15 @@ category: "DevOps"
 tags:
   - "Zabbix"
 icon: pen-to-square
+article: false
+index: false
+timeline: false
+sitemap:
+  exclude: true
+head:
+  - - meta
+    - name: robots
+      content: noindex, nofollow
 ---
 - **Zabbix Proxy**：用于从被监控的主机收集数据，并将这些数据转发给 Zabbix Server。这有助于减轻 Zabbix Server 的负载，特别是在大规模监控环境中。Zabbix Proxy 还可以作为网络隔离的桥梁，缓存数据以应对网络不稳定的情况。
 - **Zabbix Agent**：运行在被监控的主机上，用于收集本地的监控数据，并将数据发送给 Zabbix Server 或 Zabbix Proxy。

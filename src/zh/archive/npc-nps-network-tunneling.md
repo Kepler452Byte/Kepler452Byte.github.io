@@ -8,6 +8,15 @@ tags:
   - "NPS"
   - "Network"
 icon: pen-to-square
+article: false
+index: false
+timeline: false
+sitemap:
+  exclude: true
+head:
+  - - meta
+    - name: robots
+      content: noindex, nofollow
 ---
 ## 详细架构图
 
