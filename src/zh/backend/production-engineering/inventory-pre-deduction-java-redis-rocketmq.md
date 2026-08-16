@@ -1,5 +1,6 @@
 ---
-redirectFrom: "/zh/cs-development/backend/inventory-pre-deduction-java-redis-rocketmq.html"
+series: "Production Engineering"
+redirectFrom: ["/zh/cs-development/backend/inventory-pre-deduction-java-redis-rocketmq.html","/zh/backend/inventory-pre-deduction-java-redis-rocketmq.html"]
 title: "库存预扣 + MySQL 最终落库技术方案（Java + Redis + RocketMQ）"
 description: "库存预扣与 MySQL 最终落库的技术方案：Java + Redis + RocketMQ 的落地实现"
 date: 2025-08-25

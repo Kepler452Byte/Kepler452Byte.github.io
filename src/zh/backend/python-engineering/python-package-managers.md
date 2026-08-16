@@ -1,5 +1,6 @@
 ---
-redirectFrom: "/zh/cs-development/backend/python-package-managers.html"
+series: "Python Engineering"
+redirectFrom: ["/zh/cs-development/backend/python-package-managers.html","/zh/backend/python-package-managers.html"]
 title: "梳理一下 Python 的包管理工具"
 description: "梳理 Python 的包管理工具与选型"
 date: 2025-10-19

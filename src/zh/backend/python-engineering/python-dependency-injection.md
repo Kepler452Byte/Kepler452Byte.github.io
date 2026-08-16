@@ -1,5 +1,6 @@
 ---
-redirectFrom: "/zh/cs-development/backend/python-dependency-injection.html"
+series: "Python Engineering"
+redirectFrom: ["/zh/cs-development/backend/python-dependency-injection.html","/zh/backend/python-dependency-injection.html"]
 title: "Python 依赖注入：从概念到实践，让代码更优雅"
 description: "Python 依赖注入的概念与实践，让代码组织更优雅"
 date: 2025-09-18

@@ -138,7 +138,8 @@ export const seriesPlugin = {
 
       // Category sidebars — same series-aware config on every page under
       // a category (landing + articles), so navigation never changes shape:
-      //   series groups -> link to their /series/ page (article list),
+      //   series groups -> pure toggle (no link: a linked title would
+      //   navigate instead of expanding, per theme SidebarGroup markup),
       //   trailing loose group -> articles without a series.
       // Category prefixes are discovered from the landing READMEs.
       const landingRoot = locale === "/en/" ? "en/" : "zh/";
@@ -158,7 +159,6 @@ export const seriesPlugin = {
           .map(([name, items]) => ({
             text: name,
             icon: "layer-group",
-            link: `${locale}series/${slugify(name)}/`,
             collapsible: true,
             expanded: true,
             children: items

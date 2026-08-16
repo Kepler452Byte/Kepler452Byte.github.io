@@ -1,5 +1,6 @@
 ---
-redirectFrom: "/zh/cs-development/backend/flask-mock-in-unit-tests.html"
+series: "Python Engineering"
+redirectFrom: ["/zh/cs-development/backend/flask-mock-in-unit-tests.html","/zh/backend/flask-mock-in-unit-tests.html"]
 title: "Mock 在单元测试中怎么用"
 description: "Mock 在 Python（Flask）单元测试中的使用方法"
 date: 2025-08-27

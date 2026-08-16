@@ -1,5 +1,6 @@
 ---
-redirectFrom: "/zh/cs-development/backend/python-event-loop-best-practices.html"
+series: "Python Deep Dive"
+redirectFrom: ["/zh/cs-development/backend/python-event-loop-best-practices.html","/zh/backend/python-event-loop-best-practices.html"]
 title: "Python 事件循环最佳实践：Flask、FastAPI 与通用项目指南"
 description: "Python 事件循环最佳实践：Flask、FastAPI 与通用项目指南"
 date: 2025-08-29
