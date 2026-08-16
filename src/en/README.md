@@ -7,7 +7,7 @@ title: Blog Home
 heroText: Kepler452Byte'sBlog
 tagline: Weave the world with logic define the future with code.
 # heroFullScreen: true
-bgImage: /assets/images/wallpaper-space.png
+bgImage: /assets/images/blog-banner-clear-2048.webp
 bgImageStyle: {
   backgroundSize: 'cover', 
 }

@@ -6,7 +6,7 @@ title: 主页
 # heroImage: /logo.svg
 heroText: Kepler452Byte'Blog
 # heroFullScreen: true
-bgImage: /assets/images/wallpaper-space.png
+bgImage: /assets/images/blog-banner-clear-2048.webp
 tagline: 用逻辑编织世界，以代码定义未来
 projects:
   # - icon: folder-open
