@@ -2,8 +2,6 @@
 article: false
 icon: id-card
 cover: /assets/images/北京邮电大学-bg-white.png
-
-sidebar: false
 ---
 # 我的简历
 ### 👤 基本信息

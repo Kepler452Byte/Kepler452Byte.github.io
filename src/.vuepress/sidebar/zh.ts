@@ -3,6 +3,9 @@ import { sidebar } from "vuepress-theme-hope";
 // Prefixes mirror the physical tree: level-1 dir = category slug,
 // level-2 dir = series slug. children are auto-generated ("structure").
 export const zhSidebar = sidebar({
+  // fallback for pages outside any category dir (e.g. /zh/intro.html)
+  "/zh/": [{ text: "关于", icon: "user", link: "/zh/intro.html" }],
+
   "/zh/backend/": [
     {
       text: "后端开发",

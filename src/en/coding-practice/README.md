@@ -6,4 +6,6 @@ icon: code
 description: Algorithm and SQL notes
 ---
 
+## Catalog
+
 <Catalog />

@@ -1,10 +1,8 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebar = sidebar({
-  "/en/": [
-    "",
-    "/en/intro",
-  ],
+  // fallback for pages outside any category dir (e.g. /en/intro.html)
+  "/en/": [{ text: "About", icon: "user", link: "/en/intro.html" }],
   // "/en/demo/": [
   //   {
   //     text: "Demo",

@@ -1,4 +1,5 @@
 import { navbar } from "vuepress-theme-hope";
+import { seriesChildren } from "./series.js";
 
 export const enNavbar = navbar([
   "/en/",
@@ -45,6 +46,13 @@ export const enNavbar = navbar([
   //   ],
   // },
   "/en/coding-practice/",
-  { text: "Series", icon: "layer-group", link: "/en/series/" },
+  {
+    text: "Series",
+    icon: "layer-group",
+    children: [
+      { text: "All Series", icon: "list", link: "/en/series/" },
+      ...seriesChildren("en", "/en/"),
+    ],
+  },
   "/en/intro",
 ]);

@@ -6,4 +6,6 @@ icon: code
 description: 记录算法与 SQL 题的笔记
 ---
 
+## 目录
+
 <Catalog />

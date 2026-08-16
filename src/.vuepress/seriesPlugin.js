@@ -79,40 +79,59 @@ export const seriesPlugin = {
 
       seriesMap[locale] = {};
 
+      // sidebar config shared by all series pages of the locale: one
+      // collapsible group per series, current series expanded. Injected
+      // via frontmatter.sidebar (official override over theme sidebar).
+      const sidebarOf = (currentName) =>
+        entries.map(([name, items]) => ({
+          text: name,
+          icon: "layer-group",
+          collapsible: true,
+          expanded: name === currentName,
+          children: items.map(({ path, info }) => ({
+            text: info.title,
+            link: path,
+          })),
+        }));
+
       for (const [name, items] of entries) {
         const itemPath = `${locale}series/${slugify(name)}/`;
         seriesMap[locale][name] = { path: itemPath, items };
 
-        newPages.push(
-          await createPage(app, {
-            path: itemPath,
-            frontmatter: {
-              title: name,
-              icon: "layer-group",
-              article: false,
-              index: false,
-              layout: "Series",
-            },
-            // card cloud on top + this series' article list below, matching
-            // what /tag/<name>/ and /category/<name>/ pages look like
-            content: `<SeriesMap locale="${locale}" />\n\n<SeriesItems name="${name}" locale="${locale}" />`,
-          }),
-        );
-      }
-
-      newPages.push(
-        await createPage(app, {
-          path: `${locale}series/`,
+        const page = await createPage(app, {
+          path: itemPath,
           frontmatter: {
-            title: locale === "/en/" ? "Series" : "专题",
+            title: name,
             icon: "layer-group",
             article: false,
             index: false,
             layout: "Series",
           },
-          content: `<SeriesMap locale="${locale}" />`,
-        }),
-      );
+          // left sidebar navigates between series; main column is the
+          // article list
+          content: `<SeriesItems name="${name}" locale="${locale}" />`,
+        });
+
+        // the theme's extendsPage deletes non-boolean `sidebar` from
+        // frontmatter during createPage, but the client resolver fully
+        // supports array configs — so stamp it on AFTER creation
+        page.frontmatter.sidebar = sidebarOf(name);
+        newPages.push(page);
+      }
+
+      const mapPage = await createPage(app, {
+        path: `${locale}series/`,
+        frontmatter: {
+          title: locale === "/en/" ? "Series" : "专题",
+          icon: "layer-group",
+          article: false,
+          index: false,
+          layout: "Series",
+        },
+        content: `<SeriesMap locale="${locale}" />`,
+      });
+      mapPage.frontmatter.sidebar = sidebarOf(null);
+      newPages.push(mapPage);
     }
 
     app.pages.push(...newPages);
