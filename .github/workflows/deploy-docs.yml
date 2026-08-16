@@ -22,9 +22,11 @@ jobs:
 
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
+        # version comes from package.json `packageManager`, which the
+        # `corepack enable` in the install step also honors — keeping
+        # CI and local on the exact same pnpm
         with:
-          version: 8.15.0
-
+          version: 10.34.5
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4

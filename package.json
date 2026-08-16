@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
@@ -19,11 +20,6 @@
     "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.24",
     "vuepress-theme-hope": "2.0.0-rc.94"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
   },
   "dependencies": {
     "@vuepress/plugin-comment": "2.0.0-rc.20"

@@ -1,0 +1,7 @@
+# pnpm >= 10 reads settings here (package.json `pnpm` field is deprecated).
+# CI runs with a clean store, so dependency build scripts must be approved:
+#   esbuild         installs its platform binary (required by vite build)
+#   @parcel/watcher native file-watching binding
+onlyBuiltDependencies:
+  - esbuild
+  - "@parcel/watcher"
