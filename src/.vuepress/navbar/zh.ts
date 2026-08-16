@@ -1,82 +1,24 @@
 import { navbar } from "vuepress-theme-hope";
 
+// Thin navbar: every entry targets an auto-generated page, so adding
+// categories/series never touches this file.
+//   分类 dropdown -> /category/<slug>/ pages (driven by frontmatter)
+//   专题         -> /series/ (driven by the series plugin)
 export const zhNavbar = navbar([
   "",
-  // "/zh/demo/",
-  // {
-  //   text: "博文",
-  //   icon: "pen-to-square",
-  //   prefix: "/zh/posts/",
-  //   children: [
-  //     {
-  //       text: "苹果",
-  //       icon: "pen-to-square",
-  //       prefix: "apple/",
-  //       children: [
-  //         { text: "苹果1", icon: "pen-to-square", link: "1" },
-  //         { text: "苹果2", icon: "pen-to-square", link: "2" },
-  //         "3",
-  //         "4",
-  //       ],
-  //     },
-  //     {
-  //       text: "香蕉",
-  //       icon: "pen-to-square",
-  //       prefix: "banana/",
-  //       children: [
-  //         {
-  //           text: "香蕉 1",
-  //           icon: "pen-to-square",
-  //           link: "1",
-  //         },
-  //         {
-  //           text: "香蕉 2",
-  //           icon: "pen-to-square",
-  //           link: "2",
-  //         },
-  //         "3",
-  //         "4",
-  //       ],
-  //     },
-  //     { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-  //     { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-  //     "tomato",
-  //     "strawberry",
-  //   ],
-  // },
-  "/zh/my-log/",
   {
-    text: "CS/开发经历",
-    icon: "pen-to-square",
-    prefix: "/zh/cs-development/",
+    text: "分类",
+    icon: "layer-group",
     children: [
-      {
-        text: "算法练习",
-        icon: "code", // 更换为更适合算法练习的图标
-        prefix: "code-practice/",
-        link: "/zh/cs-development/code-practice/README.md"
-      },
-      {
-        text: "后端开发",
-        icon: "server",
-        prefix: "backend/",
-        link: "/zh/cs-development/backend/README.md"
-      },
-      {
-        text: "前端开发",
-        icon: "laptop-code",
-        prefix: "frontend/",
-        link: "/zh/cs-development/frontend/README.md"
-      },
-      {
-        text: "AI/LLM/Agent",
-        icon: "robot",
-        prefix: "ai-llm-agent/",
-        link: "/zh/cs-development/ai-llm-agent/README.md"
-      }
-    ]
+      { text: "后端开发", icon: "server", link: "/category/backend/" },
+      { text: "前端开发", icon: "laptop-code", link: "/category/frontend/" },
+      { text: "AI/LLM/Agent", icon: "robot", link: "/category/agent-engineering/" },
+      { text: "DevOps", icon: "server", link: "/category/devops/" },
+      { text: "算法与练习", icon: "code", link: "/category/coding-practice/" },
+      { text: "求职面试", icon: "briefcase", link: "/category/interview/" },
+      { text: "我的日志", icon: "list-check", link: "/category/journal/" },
+    ],
   },
-  "/zh/seeking-job/",
   { text: "专题", icon: "layer-group", link: "/series/" },
   "/zh/intro",
 ]);

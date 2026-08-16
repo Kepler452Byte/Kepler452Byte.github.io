@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/my-log/internet-access-guide.html"
 title: "如何快乐的访问互联网资源"
 description: "如何快乐地访问互联网资源：工具与方法记录"
 date: 2025-08-25

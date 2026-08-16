@@ -12,7 +12,7 @@ export const enSidebar = sidebar({
   //     children: "structure",
   //   },
   // ],
-  "/en/code-practice/": [
+  "/en/coding-practice/": [
     {
       text: "Algorithm",
       icon: "code",

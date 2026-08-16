@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/cs-development/backend/windows-rdp-guide.html"
 title: "Windows 远程桌面使用与配置指南"
 description: "Windows 远程桌面的使用与配置指南"
 date: 2025-10-26
-category: "Infra DevOps"
+category: "DevOps"
 tags:
   - "Windows"
   - "RDP"

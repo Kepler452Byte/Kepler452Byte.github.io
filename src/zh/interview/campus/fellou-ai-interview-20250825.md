@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/seeking-job/campus/fellou-ai-interview-20250825.html"
 title: "Fellou AI 面经 2025-08-25"
 description: "Fellou AI 面试经历记录（2025-08-25）"
 date: 2025-08-25
-category: "Career Interview"
+category: "Interview"
 series: "Campus Interview"
 tags:
   - "Interview Experience"

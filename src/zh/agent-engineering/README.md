@@ -1,9 +1,9 @@
 ---
-title: Agent 工程
+title: AI/LLM/Agent
 index: false
 article: false
-icon: robot
-description: 记录 AI/LLM/Agent 开发经历
+icon: briefcase
+description: 记录我的大模型应用开发经历
 ---
 
 <Catalog />

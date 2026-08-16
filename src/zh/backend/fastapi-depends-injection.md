@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/backend/fastapi-depends-injection.html"
 title: "FastAPI Depends 依赖注入：用“声明式”替代“命令式”管理依赖"
 description: "FastAPI Depends 依赖注入：用声明式替代命令式管理依赖"
 date: 2025-11-17

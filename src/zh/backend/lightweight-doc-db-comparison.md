@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/backend/lightweight-doc-db-comparison.html"
 title: "轻量文档数据库盘点：从部署到场景，一篇理清选择指南"
 description: "盘点多款轻量文档数据库的定位、部署与查询能力，给出场景化选型建议"
 date: 2025-09-02

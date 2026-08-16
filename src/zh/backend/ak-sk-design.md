@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/backend/ak-sk-design.html"
 title: "项目中的 AK 与 SK 设计"
 description: "项目中的 AK 与 SK 认证设计"
 date: 2025-08-25

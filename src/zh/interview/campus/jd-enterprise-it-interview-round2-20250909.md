@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/seeking-job/campus/jd-enterprise-it-interview-round2-20250909.html"
 title: "京东企业与信息化部二面 2025-09-09"
 description: "京东企业与信息化部二面经历记录（2025-09-09）"
 date: 2025-09-09
-category: "Career Interview"
+category: "Interview"
 series: "Campus Interview"
 tags:
   - "Interview Experience"

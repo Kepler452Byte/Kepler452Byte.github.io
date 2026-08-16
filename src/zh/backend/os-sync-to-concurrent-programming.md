@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/backend/os-sync-to-concurrent-programming.html"
 title: "从操作系统中的各种线程与进程的同步机制到 Java、Python、MySQL 的并发编程"
 description: "从操作系统的同步机制出发，梳理 Java、Python 与 MySQL 中的并发编程"
 date: 2025-08-25

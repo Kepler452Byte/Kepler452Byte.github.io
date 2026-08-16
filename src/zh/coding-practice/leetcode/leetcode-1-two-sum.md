@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/code-practice/leetcode/leetcode-1-two-sum.html"
 title: "1. 两数之和"
 description: "LeetCode 1. 两数之和：题解与思路"
 date: 2024-01-05

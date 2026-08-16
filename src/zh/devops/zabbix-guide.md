@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/cs-development/backend/zabbix-guide.html"
 title: "Zabbix 详解"
 description: "Zabbix 监控体系的核心概念、部署配置与常见用法详解"
 date: 2025-11-17
-category: "Infra DevOps"
+category: "DevOps"
 tags:
   - "Zabbix"
 icon: pen-to-square

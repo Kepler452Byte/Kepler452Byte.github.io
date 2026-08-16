@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/cs-development/backend/npc-nps-network-tunneling.html"
 title: "NPC NPS 网络打通"
 description: "使用 npc/nps 实现内网穿透、打通内外网访问的配置与实践笔记"
 date: 2025-08-25
-category: "Infra DevOps"
+category: "DevOps"
 tags:
   - "NPS"
   - "Network"

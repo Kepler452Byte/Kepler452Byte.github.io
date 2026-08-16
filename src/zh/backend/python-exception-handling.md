@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/backend/python-exception-handling.html"
 title: "Python 异常处理实战：从复杂函数到未捕获异常的连锁反应"
 description: "Python 异常处理实战：从复杂函数到未捕获异常的连锁反应"
 date: 2025-09-12

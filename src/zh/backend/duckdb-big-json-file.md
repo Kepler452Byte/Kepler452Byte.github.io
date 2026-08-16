@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/backend/duckdb-big-json-file.html"
 title: "使用 DuckDB 完成 BigJSONFile 的解析与聚合"
 description: "使用 DuckDB 解析与聚合大型 JSON 文件的重构实践"
 date: 2025-09-15

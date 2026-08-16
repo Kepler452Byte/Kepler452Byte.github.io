@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/seeking-job/campus/shopee-interview-20250903.html"
 title: "Shopee 面经 2025-09-03"
 description: "Shopee 面试经历记录（2025-09-03）"
 date: 2025-09-03
-category: "Career Interview"
+category: "Interview"
 series: "Campus Interview"
 tags:
   - "Interview Experience"

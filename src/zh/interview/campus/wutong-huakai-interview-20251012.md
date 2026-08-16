@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/seeking-job/campus/wutong-huakai-interview-20251012.html"
 title: "梧桐花开面经 2025-10-12"
 description: "梧桐花开面试经历记录（2025-10-12）"
 date: 2025-10-12
-category: "Career Interview"
+category: "Interview"
 series: "Campus Interview"
 tags:
   - "Interview Experience"

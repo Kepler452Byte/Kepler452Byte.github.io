@@ -44,7 +44,7 @@ export const enNavbar = navbar([
   //     "strawberry",
   //   ],
   // },
-  "/en/code-practice/",
+  "/en/coding-practice/",
   { text: "Series", icon: "layer-group", link: "/en/series/" },
   "/en/intro",
 ]);

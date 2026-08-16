@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/ai-llm-agent/claude-code-best-practices.html"
 title: "Claude Code 使用的最佳实践"
 description: "Claude Code 使用的最佳实践经验总结"
 date: 2025-08-30

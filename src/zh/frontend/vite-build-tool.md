@@ -1,4 +1,5 @@
 ---
+redirectFrom: "/zh/cs-development/frontend/vite-build-tool.html"
 title: "前端构建工具 Vite"
 description: "前端构建工具 Vite 的入门与原理"
 date: 2025-10-20

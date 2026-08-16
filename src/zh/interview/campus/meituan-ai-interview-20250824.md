@@ -1,8 +1,9 @@
 ---
+redirectFrom: "/zh/seeking-job/campus/meituan-ai-interview-20250824.html"
 title: "美团 AI 面试 2025-08-24"
 description: "美团 AI 面试经历记录（2025-08-24）"
 date: 2025-08-24
-category: "Career Interview"
+category: "Interview"
 series: "Campus Interview"
 tags:
   - "Interview Experience"
