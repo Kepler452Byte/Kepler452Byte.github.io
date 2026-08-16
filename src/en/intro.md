@@ -1,4 +1,5 @@
 ---
+article: false
 icon: id-card
 cover: /assets/images/cover3.jpg
 

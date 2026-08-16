@@ -1,13 +1,13 @@
 ---
-icon: pen-to-square
+title: "1. Two Sum"
+description: "LeetCode 1. Two Sum: walkthrough and solution"
 date: 2024-01-05
-category:
-  - Leetcode
-tag:
-  - Easy
+category: "Coding Practice"
+series: "LeetCode"
+tags:
+  - "Easy"
+icon: pen-to-square
 ---
-# 1. Two Sum
-
 
 ## Code
 

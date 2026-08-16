@@ -1,13 +1,13 @@
 ---
-icon: pen-to-square
+title: "1. 两数之和"
+description: "LeetCode 1. 两数之和：题解与思路"
 date: 2024-01-05
-category:
-  - Leetcode
-tag:
-  - 容易
+category: "Coding Practice"
+series: "LeetCode"
+tags:
+  - "Easy"
+icon: pen-to-square
 ---
-# 1. 两数之和
-
 
 ## 代码
 

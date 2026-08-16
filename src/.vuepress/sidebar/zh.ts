@@ -42,7 +42,7 @@ export const zhSidebar = sidebar({
             text: "笔试题",
             icon: "list-check", // 更换icon为list-check
             collapsible: true,
-            prefix: "company-codeing-test/",
+            prefix: "company-coding-test/",
             children: "structure",
           },
         ],

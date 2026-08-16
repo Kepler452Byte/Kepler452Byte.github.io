@@ -111,15 +111,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/en/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-      "/zh/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
-      },
-      "/zh/code-practice/company-codeing-test/meituan-20250823.html": {
+      "/zh/cs-development/code-practice/company-coding-test/meituan-20250823.html": {
         hint: "Password:",
         password: "syh123123",
       },
