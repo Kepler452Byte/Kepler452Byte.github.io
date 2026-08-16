@@ -13,11 +13,20 @@ export default defineComponent({
   },
 
   setup(props) {
-    return () =>
-      h(
+    return () => {
+      const entries = Object.entries(seriesMap[props.locale] ?? {});
+
+      // visible empty state instead of a silent blank block
+      if (!entries.length)
+        return h(
+          "p",
+          props.locale === "/en/" ? "No series yet." : "暂无专题。",
+        );
+
+      return h(
         "ul",
         { class: "vp-series-list" },
-        Object.entries(seriesMap[props.locale] ?? {})
+        entries
           .sort(([, a], [, b]) => b.items.length - a.items.length)
           .map(([name, { path, items }]) =>
             h(
@@ -34,5 +43,6 @@ export default defineComponent({
             ),
           ),
       );
+    };
   },
 });

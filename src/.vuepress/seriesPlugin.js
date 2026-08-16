@@ -39,6 +39,9 @@ export const seriesPlugin = {
     "@theme-hope/components/blog/BloggerInfo": app.dir.source(
       ".vuepress/components/theme/BloggerInfo.js",
     ),
+    "@theme-hope/components/blog/InfoList": app.dir.source(
+      ".vuepress/components/theme/InfoList.js",
+    ),
   }),
 
   async onInitialized(app) {

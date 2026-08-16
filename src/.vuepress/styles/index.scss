@@ -41,3 +41,11 @@
     color: var(--vp-c-text, #9da2ae);
   }
 }
+
+// series chips inside the aside info panel (SeriesInfo): let long lists
+// scroll like the theme's category/tag lists
+.vp-series-wrapper .vp-series-list {
+  overflow-y: auto;
+  max-height: 75vh;
+  margin: 8px auto;
+}

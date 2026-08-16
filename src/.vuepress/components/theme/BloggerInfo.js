@@ -54,8 +54,8 @@ export default defineComponent({
       const countItems = [
         [articles.value.path, articles.value.items.length, article],
         [categoryMap.value.path, Object.keys(categoryMap.value.map).length, category],
-        [tagMap.value.path, Object.keys(tagMap.value.map).length, tag],
         [`${routeLocale.value}series/`, seriesCount.value, series],
+        [tagMap.value.path, Object.keys(tagMap.value.map).length, tag],
         [timelines.value.path, timelines.value.items.length, timeline],
       ];
 
