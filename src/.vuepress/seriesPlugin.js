@@ -45,12 +45,12 @@ export const seriesPlugin = {
   }),
 
   async onInitialized(app) {
-    // locale -> series name -> items
+    // locale -> series name -> items / locale -> loose (non-series) articles
     const grouped = { "/": {}, "/en/": {} };
+    const loose = { "/": [], "/en/": [] };
 
     for (const page of app.pages) {
-      const series = page.frontmatter.series;
-      if (!series || !isArticle(page)) continue;
+      if (!isArticle(page)) continue;
 
       const info = { title: page.title };
       for (const key of META_KEYS)
@@ -58,7 +58,10 @@ export const seriesPlugin = {
           info[key] = page.routeMeta[key];
 
       const locale = localeOf(page.path);
-      (grouped[locale][series] ??= []).push({ path: page.path, info });
+      const series = page.frontmatter.series;
+
+      if (series) (grouped[locale][series] ??= []).push({ path: page.path, info });
+      else loose[locale].push({ path: page.path, info });
     }
 
     const seriesMap = {};
@@ -132,6 +135,56 @@ export const seriesPlugin = {
       });
       mapPage.frontmatter.sidebar = sidebarOf(null);
       newPages.push(mapPage);
+
+      // Category sidebars — same series-aware config on every page under
+      // a category (landing + articles), so navigation never changes shape:
+      //   series groups -> link to their /series/ page (article list),
+      //   trailing loose group -> articles without a series.
+      // Category prefixes are discovered from the landing READMEs.
+      const landingRoot = locale === "/en/" ? "en/" : "zh/";
+      const byDate = (a, b) =>
+        new Date(b.info.date ?? 0) - new Date(a.info.date ?? 0);
+
+      const prefixes = [];
+      for (const landing of app.pages) {
+        const rel = landing.filePathRelative ?? "";
+        if (rel.startsWith(landingRoot) && /^[^/]+\/[^/]+\/README\.md$/.test(rel))
+          prefixes.push(landing.path); // e.g. /zh/backend/
+      }
+
+      for (const prefix of prefixes) {
+        const groups = entries
+          .filter(([, items]) => items.some((i) => i.path.startsWith(prefix)))
+          .map(([name, items]) => ({
+            text: name,
+            icon: "layer-group",
+            link: `${locale}series/${slugify(name)}/`,
+            collapsible: true,
+            expanded: true,
+            children: items
+              .filter((i) => i.path.startsWith(prefix))
+              .map((i) => ({ text: i.info.title, link: i.path })),
+          }));
+
+        const looseChildren = loose[locale]
+          .filter((i) => i.path.startsWith(prefix))
+          .sort(byDate)
+          .map((i) => ({ text: i.info.title, link: i.path }));
+
+        if (looseChildren.length)
+          groups.push({
+            text: locale === "/en/" ? "Others" : "其他文章",
+            icon: "file-lines",
+            collapsible: true,
+            expanded: true,
+            children: looseChildren,
+          });
+
+        if (!groups.length) continue;
+
+        for (const page of app.pages)
+          if (page.path.startsWith(prefix)) page.frontmatter.sidebar = groups;
+      }
     }
 
     app.pages.push(...newPages);
