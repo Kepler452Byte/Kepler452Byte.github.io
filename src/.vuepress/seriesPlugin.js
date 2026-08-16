@@ -91,8 +91,11 @@ export const seriesPlugin = {
               icon: "layer-group",
               article: false,
               index: false,
+              layout: "Series",
             },
-            content: `<SeriesItems name="${name}" locale="${locale}" />`,
+            // card cloud on top + this series' article list below, matching
+            // what /tag/<name>/ and /category/<name>/ pages look like
+            content: `<SeriesMap locale="${locale}" />\n\n<SeriesItems name="${name}" locale="${locale}" />`,
           }),
         );
       }
@@ -105,6 +108,7 @@ export const seriesPlugin = {
             icon: "layer-group",
             article: false,
             index: false,
+            layout: "Series",
           },
           content: `<SeriesMap locale="${locale}" />`,
         }),
