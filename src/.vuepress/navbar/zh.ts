@@ -77,5 +77,6 @@ export const zhNavbar = navbar([
     ]
   },
   "/zh/seeking-job/",
+  { text: "专题", icon: "layer-group", link: "/series/" },
   "/zh/intro",
 ]);

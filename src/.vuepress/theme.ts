@@ -305,4 +305,8 @@ export default hopeTheme({
     //   },
     // },
   },
+}, {
+  // load the theme unbundled so "@theme-hope/*" aliases resolve and
+  // seriesPlugin.js can swap in its customized BloggerInfo
+  custom: true,
 });

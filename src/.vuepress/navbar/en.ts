@@ -45,5 +45,6 @@ export const enNavbar = navbar([
   //   ],
   // },
   "/en/code-practice/",
+  { text: "Series", icon: "layer-group", link: "/en/series/" },
   "/en/intro",
 ]);

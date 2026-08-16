@@ -1,1 +1,43 @@
 // place your custom styles here
+
+// series overview chips (SeriesMap component) — mirrors the theme tag-list look
+.vp-series-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1rem 0;
+  list-style: none;
+}
+
+.vp-series {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.35em 0.8em;
+  border-radius: 1em;
+  background: var(--vp-c-bg-alt, #f3f4f5);
+  color: var(--vp-c-text, #363636);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: var(--vp-c-brand, #3eaf7c);
+    color: var(--vp-c-bg, #fff);
+    text-decoration: none;
+  }
+
+  .vp-series-count {
+    padding: 0 0.35em;
+    border-radius: 0.75em;
+    background: var(--vp-c-border, #e2e2e2);
+    font-size: 0.75em;
+    line-height: 1.5;
+  }
+
+  [data-theme="dark"] & {
+    background: var(--vp-c-bg-alt, #222);
+    color: var(--vp-c-text, #9da2ae);
+  }
+}
