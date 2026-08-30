@@ -3,8 +3,8 @@ title: "从 Skill + CLI 到 Skill + MCP：Agent Harness 的云化演进"
 description: "从 Agent Tool 数量膨胀和本地 CLI 的局限出发，讨论 Skill + CLI 为什么出现，以及能力为什么最终可能通过 MCP 从 Agent Runtime 中解耦，走向云端 Capability Platform。"
 date: 2026-08-16
 category:
+  - "Agent Runtime"
   - "Agent Engineering"
-series: "Agent Runtime"
 tags:
   - "Agent"
   - "MCP"

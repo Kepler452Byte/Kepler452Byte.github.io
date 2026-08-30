@@ -1,10 +1,11 @@
 ---
-series: "Python Deep Dive"
 redirectFrom: ["/zh/cs-development/backend/python-context-manager.html","/zh/backend/python-context-manager.html"]
 title: "Python 的上下文管理器"
 description: "Python 上下文管理器的原理与用法"
 date: 2025-08-30
-category: "Backend"
+category:
+  - "Backend"
+  - "Python Deep Dive"
 tags:
   - "Python"
 icon: pen-to-square

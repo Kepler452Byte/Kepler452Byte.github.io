@@ -3,8 +3,9 @@ redirectFrom: "/zh/seeking-job/campus/campus-resume-tips-20250826.html"
 title: "秋招简历投递的最佳姿势"
 description: "秋招简历投递的最佳姿势与经验总结"
 date: 2025-08-26
-category: "Interview"
-series: "Campus Interview"
+category:
+  - "Interview"
+  - "Campus Interview"
 tags:
   - "Experience"
 icon: pen-to-square

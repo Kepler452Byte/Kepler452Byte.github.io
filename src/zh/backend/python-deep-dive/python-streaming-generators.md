@@ -1,10 +1,11 @@
 ---
-series: "Python Deep Dive"
 redirectFrom: ["/zh/cs-development/backend/python-streaming-generators.html","/zh/backend/python-streaming-generators.html"]
 title: "Python 流式编程与生成器函数详解"
 description: "Python 流式编程与生成器函数的原理与详解"
 date: 2025-08-29
-category: "Backend"
+category:
+  - "Backend"
+  - "Python Deep Dive"
 tags:
   - "Python"
 icon: pen-to-square

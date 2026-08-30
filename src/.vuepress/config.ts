@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { seriesPlugin } from "./seriesPlugin.js";
 
 export default defineUserConfig({
   base: "/",
@@ -19,8 +18,6 @@ export default defineUserConfig({
   },
 
   theme,
-
-  plugins: [seriesPlugin],
 
   // Enable it with pwa
   // shouldPrefetch: false,

@@ -1,10 +1,11 @@
 ---
-series: "Python Deep Dive"
 redirectFrom: ["/zh/cs-development/backend/python-unpacking-idioms.html","/zh/backend/python-unpacking-idioms.html"]
 title: "Python 中的解包与拆包相关便捷操作"
 description: "Python 中解包与拆包相关的便捷操作一览"
 date: 2025-09-10
-category: "Backend"
+category:
+  - "Backend"
+  - "Python Deep Dive"
 tags:
   - "Python"
 icon: pen-to-square

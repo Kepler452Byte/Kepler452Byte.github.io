@@ -3,8 +3,8 @@ title: "MCP 网关下的统一 HITL：把人工确认变成平台能力"
 description: "当 Agent 的能力都经过 MCP Gateway 暴露之后，Human-in-the-Loop 不应该散落在各个 Agent Runtime 里各自实现，而应该下沉为网关的统一治理能力。讨论为什么 HITL 要做在网关层，confirmation 应该设计成什么形态，以及 Runtime 侧只需要保留什么。"
 date: 2026-08-16
 category:
+  - "Agent Runtime"
   - "Agent Engineering"
-series: "Agent Runtime"
 tags:
   - "Agent"
   - "MCP"

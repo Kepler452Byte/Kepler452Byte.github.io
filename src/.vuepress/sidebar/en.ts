@@ -1,9 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
-// Sidebars are generated at build time by seriesPlugin:
-//   category pages/articles -> series groups + trailing Others group
-//   /series/ pages          -> all series of the locale
-// This file only holds the fallback for pages outside any category dir.
+// Sidebars are generated from the directory structure: each folder is a
+// group (README frontmatter `dir` customizes title/icon/order).
 export const enSidebar = sidebar({
-  "/en/": [{ text: "About", icon: "user", link: "/en/intro.html" }],
+  "/en/": "structure",
 });

@@ -1,10 +1,11 @@
 ---
-series: "Python Engineering"
 redirectFrom: ["/zh/cs-development/backend/how-to-write-unit-tests.html","/zh/backend/how-to-write-unit-tests.html"]
 title: "单元测试应该怎么写"
 description: "单元测试应该怎么写：思路与实践"
 date: 2025-08-27
-category: "Backend"
+category:
+  - "Backend"
+  - "Python Engineering"
 tags:
   - "Python"
   - "Flask"

@@ -3,8 +3,9 @@ redirectFrom: "/zh/seeking-job/campus/yuanli-lingji-interview-20250917.html"
 title: "原力灵机一面 2025-09-17"
 description: "原力灵机一面经历记录（2025-09-17）"
 date: 2025-09-17
-category: "Interview"
-series: "Campus Interview"
+category:
+  - "Interview"
+  - "Campus Interview"
 tags:
   - "Interview Experience"
 icon: pen-to-square

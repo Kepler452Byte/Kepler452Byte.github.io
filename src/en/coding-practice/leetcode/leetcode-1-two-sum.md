@@ -3,8 +3,9 @@ redirectFrom: "/en/code-practice/leetcode/leetcode-1-two-sum.html"
 title: "1. Two Sum"
 description: "LeetCode 1. Two Sum: walkthrough and solution"
 date: 2024-01-05
-category: "Coding Practice"
-series: "LeetCode"
+category:
+  - "Coding Practice"
+  - "LeetCode"
 tags:
   - "Easy"
 icon: pen-to-square

@@ -3,8 +3,8 @@ title: "Agent Runtime 的异步化：Task、Run 与统一 Checkpoint"
 description: "把 agent.run() 扔进异步任务队列并不等于分布式 Agent Runtime。讨论 Task 与 Run 为什么必须分开、Scheduler 决定 WHEN 而 Runtime 决定 HOW、Run State 如何持久化与恢复，以及 AG-UI Event Store 如何升级为平台的统一 Execution Log 与 Portable Checkpoint 基础。"
 date: 2026-08-16
 category:
+  - "Agent Runtime"
   - "Agent Engineering"
-series: "Agent Runtime"
 tags:
   - "Agent"
   - "MCP"

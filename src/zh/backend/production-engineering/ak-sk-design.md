@@ -1,10 +1,11 @@
 ---
-series: "Production Engineering"
 redirectFrom: ["/zh/cs-development/backend/ak-sk-design.html","/zh/backend/ak-sk-design.html"]
 title: "项目中的 AK 与 SK 设计"
 description: "项目中的 AK 与 SK 认证设计"
 date: 2025-08-25
-category: "Backend"
+category:
+  - "Backend"
+  - "Production Engineering"
 tags:
   - "Design"
 icon: pen-to-square
