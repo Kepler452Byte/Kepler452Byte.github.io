@@ -1,7 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
-// Sidebars are generated from the directory structure: each folder is a
-// group (README frontmatter `dir` customizes title/icon/order).
+// One structure sidebar per top-level category (see sidebar/zh.ts).
 export const enSidebar = sidebar({
-  "/en/": "structure",
+  "/en/coding-practice/": "structure",
 });
