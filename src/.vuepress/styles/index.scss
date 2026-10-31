@@ -1,1 +1,6 @@
-// place your custom styles here
+@use "vuepress-theme-hope/presets/round-blogger-avatar";
+
+.vp-blogger-avatar {
+  object-fit: cover;
+  object-position: center;
+}
