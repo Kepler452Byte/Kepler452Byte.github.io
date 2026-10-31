@@ -5,7 +5,7 @@ description: "Python 异常处理实战：从复杂函数到未捕获异常的�
 date: 2025-09-12
 category:
   - "Backend"
-  - "Python Deep Dive"
+  - "Python 深入解析"
 tags:
   - "Python"
   - "Experience"

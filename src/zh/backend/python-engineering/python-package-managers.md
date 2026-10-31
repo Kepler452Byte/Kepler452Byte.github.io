@@ -5,7 +5,7 @@ description: "梳理 Python 的包管理工具与选型"
 date: 2025-10-19
 category:
   - "Backend"
-  - "Python Engineering"
+  - "Python 工程实践"
 tags:
   - "Python"
 icon: pen-to-square

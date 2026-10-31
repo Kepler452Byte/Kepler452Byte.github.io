@@ -5,7 +5,7 @@ description: "Python 中解包与拆包相关的便捷操作一览"
 date: 2025-09-10
 category:
   - "Backend"
-  - "Python Deep Dive"
+  - "Python 深入解析"
 tags:
   - "Python"
 icon: pen-to-square

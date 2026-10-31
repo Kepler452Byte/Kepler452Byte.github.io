@@ -5,7 +5,7 @@ description: "FastAPI Depends 依赖注入：用声明式替代命令式管理�
 date: 2025-11-17
 category:
   - "Backend"
-  - "Python Engineering"
+  - "Python 工程实践"
 tags:
   - "Python"
   - "FastAPI"

@@ -5,7 +5,7 @@ description: "库存预扣与 MySQL 最终落库的技术方案：Java + Redis +
 date: 2025-08-25
 category:
   - "Backend"
-  - "Production Engineering"
+  - "生产工程实践"
 tags:
   - "Java"
   - "Redis"

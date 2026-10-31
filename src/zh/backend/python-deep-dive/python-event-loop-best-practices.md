@@ -5,7 +5,7 @@ description: "Python 事件循环最佳实践：Flask、FastAPI 与通用项目�
 date: 2025-08-29
 category:
   - "Backend"
-  - "Python Deep Dive"
+  - "Python 深入解析"
 tags:
   - "Python"
   - "EventLoop"

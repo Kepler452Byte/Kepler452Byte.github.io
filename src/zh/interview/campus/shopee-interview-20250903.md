@@ -5,7 +5,7 @@ description: "Shopee 面试经历记录（2025-09-03）"
 date: 2025-09-03
 category:
   - "Interview"
-  - "Campus Interview"
+  - "校园招聘面试"
 tags:
   - "Interview Experience"
 icon: pen-to-square

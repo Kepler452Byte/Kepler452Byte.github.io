@@ -5,7 +5,7 @@ description: "LeetCode 1. 两数之和：题解与思路"
 date: 2024-01-05
 category:
   - "Coding Practice"
-  - "LeetCode"
+  - "力扣练习"
 tags:
   - "Easy"
 icon: pen-to-square

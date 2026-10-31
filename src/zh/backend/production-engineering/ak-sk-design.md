@@ -5,7 +5,7 @@ description: "项目中的 AK 与 SK 认证设计"
 date: 2025-08-25
 category:
   - "Backend"
-  - "Production Engineering"
+  - "生产工程实践"
 tags:
   - "Design"
 icon: pen-to-square

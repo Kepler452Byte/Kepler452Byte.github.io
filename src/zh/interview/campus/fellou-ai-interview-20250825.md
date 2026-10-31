@@ -5,7 +5,7 @@ description: "Fellou AI 面试经历记录（2025-08-25）"
 date: 2025-08-25
 category:
   - "Interview"
-  - "Campus Interview"
+  - "校园招聘面试"
 tags:
   - "Interview Experience"
 icon: pen-to-square

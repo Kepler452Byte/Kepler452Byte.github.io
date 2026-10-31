@@ -5,7 +5,7 @@ description: "美团 AI 面试经历记录（2025-08-24）"
 date: 2025-08-24
 category:
   - "Interview"
-  - "Campus Interview"
+  - "校园招聘面试"
 tags:
   - "Interview Experience"
 icon: pen-to-square

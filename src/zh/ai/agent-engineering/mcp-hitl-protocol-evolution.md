@@ -2,15 +2,14 @@
 title: "MCP HITL 的协议演进：从反向请求到「返回再重试」"
 description: "用同一台 Server 同时服务两个协议时代的客户端做实验，把 MCP 2025-11-25 与 2026-07-28 的 Human-in-the-Loop 机制差异讲清楚：为什么 server 主动发请求的 elicitation 会被废弃，guard 模式和 request_state 又解决了什么问题。"
 date: 2026-08-30
-category:
-  - "Agent Engineering"
-  - "MCP"
+category: "AI"
 tags:
   - "MCP"
   - "HITL"
   - "Protocol Design"
   - "Elicitation"
 icon: user-check
+redirectFrom: ["/zh/agent-engineering/mcp-hitl-protocol-evolution.html"]
 ---
 
 Human-in-the-Loop（HITL）是 Agent 工具调用里最敏感的一环：模型想执行一个危险操作，谁来拦、怎么拦、拦下来之后流程怎么恢复。MCP 在两个协议版本里给了两个答案，而且是**方向相反**的两个答案。

@@ -5,7 +5,7 @@ description: "秋招简历投递的最佳姿势与经验总结"
 date: 2025-08-26
 category:
   - "Interview"
-  - "Campus Interview"
+  - "校园招聘面试"
 tags:
   - "Experience"
 icon: pen-to-square

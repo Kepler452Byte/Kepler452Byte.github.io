@@ -5,7 +5,7 @@ description: "Python 依赖注入的概念与实践，让代码组织更优雅"
 date: 2025-09-18
 category:
   - "Backend"
-  - "Python Engineering"
+  - "Python 工程实践"
 tags:
   - "Python"
 icon: pen-to-square

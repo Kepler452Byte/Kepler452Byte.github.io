@@ -5,7 +5,7 @@ description: "Python 上下文管理器的原理与用法"
 date: 2025-08-30
 category:
   - "Backend"
-  - "Python Deep Dive"
+  - "Python 深入解析"
 tags:
   - "Python"
 icon: pen-to-square

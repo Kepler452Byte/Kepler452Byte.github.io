@@ -5,7 +5,7 @@ description: "京东企业与信息化部二面经历记录（2025-09-09）"
 date: 2025-09-09
 category:
   - "Interview"
-  - "Campus Interview"
+  - "校园招聘面试"
 tags:
   - "Interview Experience"
 icon: pen-to-square

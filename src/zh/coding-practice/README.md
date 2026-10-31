@@ -4,8 +4,18 @@ index: false
 article: false
 icon: code
 description: 记录算法与 SQL 题的笔记
+pageInfo: false
+toc: false
+contributors: false
+lastUpdated: false
+editLink: false
+comment: false
+prev: false
+next: false
 ---
 
-## 目录
+记录算法与 SQL 题的笔记
 
-<Catalog />
+## 分类与文章
+
+<Catalog hide-heading :level="1" />

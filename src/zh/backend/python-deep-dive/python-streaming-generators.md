@@ -5,7 +5,7 @@ description: "Python 流式编程与生成器函数的原理与详解"
 date: 2025-08-29
 category:
   - "Backend"
-  - "Python Deep Dive"
+  - "Python 深入解析"
 tags:
   - "Python"
 icon: pen-to-square

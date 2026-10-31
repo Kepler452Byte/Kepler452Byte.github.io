@@ -5,7 +5,7 @@ description: "从操作系统的同步机制出发，梳理 Java、Python 与 My
 date: 2025-08-25
 category:
   - "Backend"
-  - "Python Deep Dive"
+  - "Python 深入解析"
 tags:
   - "Java"
   - "Python"
