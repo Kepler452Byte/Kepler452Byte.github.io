@@ -4,3 +4,8 @@
   object-fit: cover;
   object-position: center;
 }
+
+// Keep the white hero text readable while its background image is loading.
+.vp-blog-hero {
+  background-color: #123e49;
+}
