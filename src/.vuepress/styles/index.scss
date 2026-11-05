@@ -5,7 +5,18 @@
   object-position: center;
 }
 
-// Keep the white hero text readable while its background image is loading.
-.vp-blog-hero {
-  background-color: #123e49;
+.vp-blog-hero:not(.hero-fullscreen) {
+  height: auto;
+  aspect-ratio: 3 / 1;
+}
+
+@media (max-width: 719px) {
+  .vp-blog-hero-title {
+    font-size: clamp(0.9rem, 4vw, 1.75rem);
+  }
+
+  .vp-blog-hero-description {
+    margin-top: 0.5rem;
+    font-size: clamp(0.65rem, 2.5vw, 1.25rem);
+  }
 }
