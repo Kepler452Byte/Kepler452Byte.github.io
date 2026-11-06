@@ -19,7 +19,7 @@ export default hopeTheme({
   darkmode: "switch",
 
   blog: {
-    avatar: "/assets/images/avatar.webp",
+    avatar: "/assets/images/avatar-field-notes.png",
     medias: {
       Gitee: "https://gitee.com/Kepler452Byte",
       GitHub: "https://github.com/Kepler452Byte",
