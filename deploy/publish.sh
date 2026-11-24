@@ -4,7 +4,8 @@ repo=/home/shaoyuanhong-01/projects/Kepler452Byte.github.io
 instance=/home/shaoyuanhong-01/deployments/blog-prod
 revision=${1:?Usage: publish.sh COMMIT}
 sha=$(git -C "$repo" rev-parse --verify "$revision^{commit}")
-mkdir -p "$instance/releases"
+export DOCKER_CONFIG="$instance/.docker"
+mkdir -p "$instance/releases" "$DOCKER_CONFIG"
 exec 8>"$instance/.build.lock"
 flock -n 8
 release="$instance/releases/$sha"

@@ -1,0 +1,8 @@
+**
+!deploy/
+!deploy/Dockerfile
+!deploy/nginx.conf
+!src/
+!src/.vuepress/
+!src/.vuepress/dist/
+!src/.vuepress/dist/**
