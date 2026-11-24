@@ -1,5 +1,5 @@
 
-name: 部署文档
+name: Validate blog build
 
 on:
   push:
@@ -7,10 +7,10 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  deploy-gh-pages:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -45,9 +45,3 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # 部署文档
-          branch: gh-pages
-          folder: src/.vuepress/dist
