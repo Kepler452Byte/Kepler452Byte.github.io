@@ -3,11 +3,11 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://kepler452byte.github.io",
+  hostname: "https://kepler452byte.tech",
 
   author: {
     name: "Kepler452Byte",
-    url: "https://kepler452byte.github.io",
+    url: "https://kepler452byte.tech",
   },
 
   logo: "/assets/icon/site-icon.png",
@@ -34,7 +34,7 @@ export default hopeTheme({
       sidebar: enSidebar,
 
       footer: `<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802046505" target="_blank">京公网安备11010802046505号</a>
-              <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024068300号-2</a>`,
+              <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024068300号-5</a>`,
 
       displayFooter: true,
 
@@ -54,7 +54,7 @@ export default hopeTheme({
       sidebar: zhSidebar,
 
       footer: `<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802046505" target="_blank">京公网安备11010802046505号</a>
-              <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024068300号-2</a>`,
+              <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024068300号-5</a>`,
 
       displayFooter: true,
 

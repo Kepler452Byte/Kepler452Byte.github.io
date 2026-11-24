@@ -1,0 +1,22 @@
+name: blog-prod
+services:
+  nginx:
+    image: ${BLOG_IMAGE:?Set BLOG_IMAGE using publish.sh}
+    restart: unless-stopped
+    ports:
+      - '192.168.8.142:18091:80'
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    healthcheck:
+      test: ['CMD', 'wget', '-q', '--spider', 'http://127.0.0.1/healthz']
+      interval: 20s
+      timeout: 3s
+      retries: 3
+    logging:
+      driver: local
+      options:
+        max-size: '10m'
+        max-file: '3'
